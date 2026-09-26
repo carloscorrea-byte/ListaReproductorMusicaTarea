@@ -8,10 +8,10 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.informaticonfig.spring.app1</groupId>
-	<artifactId>springboot-aplications</artifactId>
+	<groupId>com.estructurasdatos.spring.ejerciciopilascolas</groupId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-aplications</name>
+	<name>demo</name>
 	<description/>
 	<url/>
 	<licenses>

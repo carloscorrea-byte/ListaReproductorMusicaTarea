@@ -1,10 +1,10 @@
-package com.informaticonfig.spring.app1.springboot_aplications;
+package com.estructurasdatos.spring.ejerciciopilascolas.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootAplicationsApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
