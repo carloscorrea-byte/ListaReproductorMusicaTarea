@@ -1,0 +1,20 @@
+{
+  "name": "grafos-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "d3": "^5.16.0",
+    "react": "17.0.2",
+    "react-d3-graph": "2.6.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

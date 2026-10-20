@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f6f8; color: #212529; }
+.app { max-width: 1100px; margin: 0 auto; padding: 16px; }
+h1 { margin: 0 0 4px; font-size: 1.5rem; }
+.sub { margin: 0 0 16px; color: #555; }
+.layout { display: grid; grid-template-columns: 1fr 300px; gap: 16px; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+.card { background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 12px; margin-bottom: 12px; }
+.card h2 { margin: 0 0 8px; font-size: 1rem; }
+.graph { overflow: hidden; padding: 0; }
+.row { display: flex; gap: 6px; margin-bottom: 6px; }
+input, select, button { padding: 6px 8px; font-size: 0.9rem; border: 1px solid #adb5bd; border-radius: 6px; width: 100%; }
+button { width: auto; background: #1c7ed6; color: #fff; border-color: #1c7ed6; cursor: pointer; }
+button:hover { background: #1971c2; }
+.error { background: #ffe3e3; color: #c92a2a; padding: 8px; border-radius: 6px; margin-bottom: 12px; }
+.leyenda span { display: inline-block; width: 12px; height: 12px; margin-right: 4px; vertical-align: middle; }
+ul { margin: 0; padding-left: 18px; }
